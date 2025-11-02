@@ -6,6 +6,7 @@ How to run:
    pip install praw
 3. Configuration: open reddit.env and fill in your credentials from your credit API. Please save the env file in the same folder as your .inyb or .py file
 4. Execution: When open the code file, please change the subreddits to the name of the 3 subreddits you are most interested in. Also, change the limit of posts and the file name to your preference. Then, run the code. For the 2nd task code, change the search query to the keyword that you want to search, the subreddits and the name of the file to fit your topic of interest.
+
 Output: The output of the files should contain the following columns:
   title: The full title of the post (String)
   score: The net score of upvotes - downvotes(Integer)
@@ -21,6 +22,6 @@ Output: The output of the files should contain the following columns:
   flair: The category flair/tag assigned to the post. (String)
   domain: The domain of the linked content (e.g., "github.com"). (String)
   search_query: The search term used to find this post (if any). (String)
-flair The category flair/tag assigned to the post. String
-domain The domain of the linked content (e.g., "github.com"). String
-search_query The search term used to find this post (if any). String
+   flair The category flair/tag assigned to the post. String
+   domain The domain of the linked content (e.g., "github.com"). String
+   search_query The search term used to find this post (if any). String
